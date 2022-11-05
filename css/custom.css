@@ -981,8 +981,8 @@ div#menus {
     font-family: "Font Awesome 6 Free";
     text-align: center;
     color:white;
-    line-height:34px;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
-    font-size: 20px;/*根据个人喜好*/
+    line-height:45px;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
+    font-size: 30px;/*根据个人喜好*/
 }
 #site-name i {
   position: absolute;

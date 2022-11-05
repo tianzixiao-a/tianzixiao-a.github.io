@@ -20,6 +20,10 @@ h1#site-title {
   font-family: zcool;
   font-size: 3em !important;
 }
+a#page-name {
+  font-family: 'zcool';
+  font-size: 1.2em !important;
+}
 .search-dialog {
   font-family: zcool;
   font-size: 1.2em !important;
@@ -1121,7 +1125,7 @@ center#name-container {
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
-  font-family: "ZhuZiAYuanJWD";
+  font-family: "zcool";
 }
 .nav-fixed.nav-visible #name-container {
   top: 60px;

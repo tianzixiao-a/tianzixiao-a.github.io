@@ -1307,23 +1307,3 @@ center#name-container {
 #search-button a.site-page.social-icon.search span {
   display: none;
 }
-
-/* 移动端侧边栏美化 */
-.site-data {
-  display: inline-flex;
-  margin: -2.5em;
-}
-.data-item.is-center {
-  margin-left: auto;
-}
-a#card-info-btn {
-  display: flow-root;
-  margin-top: 30px;
-  margin-left: 105px;
-}
-.menu-info-social-icons.is-center {
-  margin-right: 50px;
-}
-a.social-icon {
-  margin-left: 45px;
-}

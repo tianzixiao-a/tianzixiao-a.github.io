@@ -1325,8 +1325,6 @@ center#name-container {
     #card-info-btn
       display: block
       margin-top: 30px;
-      margin-left: 90px;
-      margin-right: 90px;
       background-color: var(--tzx-klein-blue)
       color: var(--tzx-blue)
     /* 手机侧栏菜单展开 社交图标 */

@@ -1329,10 +1329,6 @@ center#name-container {
       margin-right: 90px;
       background-color: var(--tzx-klein-blue)
       color: var(--tzx-blue)
-      text-align: center
-      line-height: 2.4
-      overflow: hidden
-      border-radius: 0.625rem
     /* 手机侧栏菜单展开 社交图标 */
     .menu-info-social-icons
       margin: 0.5rem 0 0 0

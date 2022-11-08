@@ -1324,9 +1324,10 @@ center#name-container {
     /* 手机侧栏菜单展开 follow_me按钮*/
     #card-info-btn
       display: block
-      margin-top: 30px;
-      background-color: var(--btn-bg)
-      color: var(--btn-color)
+      margin-top: 30px
+      margin-left: 45px
+      margin-right: 45px
+      background-color: #002fa7
     /* 手机侧栏菜单展开 社交图标 */
     .menu-info-social-icons
       margin: 0.5rem 0 0 0

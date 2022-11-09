@@ -1326,7 +1326,7 @@ center#name-container {
     /* 手机侧栏菜单展开 follow_me按钮*/
     #card-info-btn
       display: block
-      margin: 0.3rem 1rem 0 1rem
+      margin: 100px
       background-color: var(--btn-bg)
       color: var(--btn-color)
       text-align: center

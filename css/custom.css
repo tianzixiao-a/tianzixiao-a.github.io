@@ -1316,7 +1316,7 @@ center#name-container {
       margin-top: 0.5rem
       a.headline, .site-data
         a.length-num
-        color: #1772b4  
+        color: gray  
     #sidebar-avatar
       margin-top: 0.2rem
       /* 作者名 */

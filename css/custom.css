@@ -1308,31 +1308,3 @@ center#name-container {
 #search-button a.site-page.social-icon.search span {
   display: none;
 }
-
-/* 移动端侧边栏美化 */
-#sidebar
-  #sidebar-menus
-    /* 手机侧栏菜单展开 信息、头像位置调整*/
-    .site-data
-      margin-top: 0.5rem
-      .data-item
-        display: table-cell
-      .is-center
-        text-align: center 
-    #sidebar-avatar
-      margin-top: 0.2rem
-      /* 作者名 */
-      .author-info__name
-        font-weight: 500
-        font-size: 1.57em
-    /* 手机侧栏菜单展开 follow_me按钮*/
-    #card-info-btn
-      display: block
-      margin-top: 30px
-      background-color: #002fa7
-    /* 手机侧栏菜单展开 社交图标 */
-    .menu-info-social-icons
-      margin: 0.5rem 0 0 0
-      .social-icon
-        display: inline
-        padding: 0 0.7rem 0 0.7rem

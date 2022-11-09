@@ -1315,6 +1315,8 @@ center#name-container {
     /* 手机侧栏菜单展开 信息、头像位置调整*/
     .site-data
       margin-top: 0.5rem
+      .data-item.iscenter
+        display: table-cell
     #sidebar-avatar
       margin-top: 0.2rem
       /* 作者名 */

@@ -1317,7 +1317,8 @@ center#name-container {
       margin-top: 0.5rem
       .data-item
         .is-center
-          float: left
+          display: inline
+          padding: 0 0.7rem 0 0.7rem
     #sidebar-avatar
       margin-top: 0.2rem
       /* 作者名 */

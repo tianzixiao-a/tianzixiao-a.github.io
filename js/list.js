@@ -18,3 +18,5 @@ function percent() {
   result <= 99 || (result = 99), (btn.innerHTML = result);
   document.getElementById("page-name").innerText = document.title.split(" | 天子笑")[0];
 }
+
+document.getElementById("page-name").innerText = document.title.split(" | 天子笑")[0];

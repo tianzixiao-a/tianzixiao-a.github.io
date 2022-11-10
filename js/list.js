@@ -16,7 +16,15 @@ function percent() {
     btn = document.querySelector("#percent"); // 获取图标
 
   result <= 99 || (result = 99), (btn.innerHTML = result);
+}
+
+function pagename() {
   document.getElementById("page-name").innerText = document.title.split(" | 天子笑")[0];
 }
 
-document.getElementById("page-name").innerText = document.title.split(" | 天子笑")[0];
+function whenDOMReady() {
+  function pagename()
+  }
+
+whenDOMReady()
+document.addEventListener(“pjax:complete”, whenDOMReady)

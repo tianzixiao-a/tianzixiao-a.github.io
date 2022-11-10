@@ -1310,45 +1310,46 @@ center#name-container {
 }
 
 /* rightMenu */
-#rightMenu{
-	display: none;
-	position: fixed;
-	width: 160px;
-	height: fit-content;
-	top: 10%;
-	left: 10%;
-	background-color: var(--card-bg);
-	border: 1px solid var(--font-color);
+#rightMenu {
+  display: none;
+  position: fixed;
+  padding: 0 .25rem;
+  width: 11rem;
+  height: fit-content;
+  top: 10%;
+  left: 10%;
+  background-color: var(--tzx-card-bg);
+  color: var(--tzx-fontcolor);
+  border-radius: 12px;
+  z-index: 102;
+  border: var(--style-border);
+}
+#rightMenu .rightMenu-group {
+  padding: 0.35rem 0.3rem;
+}
+#rightMenu .rightMenu-group:not(:nth-last-child(1)) {
+  border-bottom: 1px dashed var(--tzx-theme-op);
+}
+#rightMenu .rightMenu-group.rightMenu-small {
+  display: flex;
+  justify-content: space-between;
+}
+#rightMenu .rightMenu-group .rightMenu-item {
 	border-radius: 8px;
-	z-index: 100;
+    transition: 0.3s;
+    cursor: pointer;
 }
-#rightMenu .rightMenu-group{
-	padding: 7px 6px;
+#rightMenu .rightMenu-group.rightMenu-line .rightMenu-item {
+  display: flex;
 }
-#rightMenu .rightMenu-group:not(:nth-last-child(1)){
-	border-bottom: 1px solid var(--font-color);
+#rightMenu .rightMenu-line .rightMenu-item {
+  margin: 0.25rem 0;
+  padding: 0.25rem 0;
 }
-#rightMenu .rightMenu-group.rightMenu-small{
-	display: flex;
-	justify-content: space-between;
+#rightMenu .rightMenu-group .rightMenu-item:hover {
+	background-color: var(--tzx-klein-blue);
 }
-#rightMenu .rightMenu-group .rightMenu-item{
-	height: 30px;
-	line-height: 30px;
-	border-radius: 8px;
-	transition: 0.3s;
-	color: var(--font-color);
-}
-#rightMenu .rightMenu-group.rightMenu-line .rightMenu-item{
-	display: flex;
-	height: 40px;
-	line-height: 40px;
-	padding: 0 4px;
-}
-#rightMenu .rightMenu-group .rightMenu-item:hover{
-	background-color: var(--text-bg-hover);
-}
-#rightMenu .rightMenu-group .rightMenu-item i{
+#rightMenu .rightMenu-group .rightMenu-item i {
 	display: inline-block;
 	text-align: center;
 	line-height: 30px;
@@ -1356,7 +1357,7 @@ center#name-container {
 	height: 30px;
 	padding: 0 5px;
 }
-#rightMenu .rightMenu-group .rightMenu-item span{
+#rightMenu .rightMenu-group .rightMenu-item span {
 	line-height: 30px;
 }
 
@@ -1364,6 +1365,6 @@ center#name-container {
 	height: 40px;
 	line-height: 40px;
 }
-.rightMenu-group.hide{
+.rightMenu-group.hide {
 	display: none;
 }

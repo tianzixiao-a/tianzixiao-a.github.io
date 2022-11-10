@@ -18,13 +18,4 @@ function percent() {
   result <= 99 || (result = 99), (btn.innerHTML = result);
 }
 
-function pagename() {
-  document.getElementById("page-name").innerText = document.title.split(" | 天子笑")[0];
-}
-
-function whenDOMReady() {
-  function pagename()
-  }
-
-whenDOMReady()
-document.addEventListener(“pjax:complete”, whenDOMReady)
+document.getElementById("page-name").innerText = document.title.split(" | 天子笑")[0];

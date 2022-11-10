@@ -6,7 +6,7 @@
   <link href="https://tzxblog.eu.org/atom.xml" rel="self"/>
   
   <link href="https://tzxblog.eu.org/"/>
-  <updated>2022-10-29T10:25:08.482Z</updated>
+  <updated>2022-11-10T10:15:13.347Z</updated>
   <id>https://tzxblog.eu.org/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo+GitHub/Gitee搭建自己的博客</title>
+    <title>Hexo+GitHub搭建自己的博客</title>
     <link href="https://tzxblog.eu.org/posts/e59e.html"/>
     <id>https://tzxblog.eu.org/posts/e59e.html</id>
     <published>2022-10-23T03:26:25.000Z</published>
-    <updated>2022-10-29T10:25:08.482Z</updated>
+    <updated>2022-11-10T10:15:13.347Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    
+    
+    <summary type="html">梦开始的地方~</summary>
+    
+    
+    
+    <category term="前端" scheme="https://tzxblog.eu.org/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://tzxblog.eu.org/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+GitHub搭建自己的博客</title>
+    <link href="https://tzxblog.eu.org/posts/e59e.html"/>
+    <id>https://tzxblog.eu.org/posts/e59e.html</id>
+    <published>2022-10-23T03:26:25.000Z</published>
+    <updated>2022-11-10T10:14:27.693Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
     
@@ -42,7 +63,7 @@
     <link href="https://tzxblog.eu.org/posts/5f67.html"/>
     <id>https://tzxblog.eu.org/posts/5f67.html</id>
     <published>2022-10-23T03:25:44.000Z</published>
-    <updated>2022-11-10T09:20:58.060Z</updated>
+    <updated>2022-11-10T10:14:15.185Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="安装Hexo框架"><a href="#安装Hexo框架" class="headerlink" title="安装Hexo框架"></a>安装Hexo框架</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure><h1 id="安装Butterfly主题"><a href="#安装Butterfly主题" class="headerlink" title="安装Butterfly主题"></a>安装Butterfly主题</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -54,9 +75,9 @@
     <category term="前端" scheme="https://tzxblog.eu.org/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-    <category term="Hexo" scheme="https://tzxblog.eu.org/tags/Hexo/"/>
-    
     <category term="Butterfly" scheme="https://tzxblog.eu.org/tags/Butterfly/"/>
+    
+    <category term="Hexo" scheme="https://tzxblog.eu.org/tags/Hexo/"/>
     
   </entry>
   

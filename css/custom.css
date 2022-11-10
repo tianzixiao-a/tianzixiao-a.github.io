@@ -312,6 +312,9 @@ div#post {
 #aside-content .item-headline {
   display: none;
 }
+a.toc-link.active {
+  border-radius: 5px;
+}
 
 /* 分页页面 */
 div#page {

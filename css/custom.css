@@ -305,7 +305,7 @@ div#post {
   border-color: #d2d2d2;
 }
 
-/*文章页目录卡片圆角*/
+/*文章页目录卡片美化*/
 #aside-content .card-widget {
   border-radius: 20px;
   }
@@ -377,7 +377,6 @@ div#category {
 }
 
 /* 滚动条 */
-
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -398,7 +397,6 @@ div#category {
 }
 
 /* 音乐播放器 */
-
 /* .aplayer .aplayer-lrc {
   display: none !important;
 } */
@@ -429,7 +427,6 @@ div#category {
 }
 
 /* 设置评论框 */
-
 .vcard {
   box-shadow: 2px 2px 5px #bbb;
   background: rgba(255, 255, 255, 0.3);
@@ -1294,7 +1291,6 @@ center#name-container {
   border-radius: 35px;
   height: 30px;
 }
-
 #nav #search-button {
   padding-left: 0;
 }

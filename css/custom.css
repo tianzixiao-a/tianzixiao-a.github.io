@@ -4,6 +4,10 @@
   font-display: swap;
   font-weight: lighter;
 }
+div#post {
+  font-family: zcool;
+  font-size: 0.9em !important;
+}
 span#subtitle {
   font-family: zcool;
   font-size: 1em !important;
@@ -32,8 +36,7 @@ div#aside-content,
 div#archive,
 div#recent-posts,
 div#post-info,
-div#sidebar-menus,
-div#post {
+div#sidebar-menus {
   font-family: zcool;
 }
 

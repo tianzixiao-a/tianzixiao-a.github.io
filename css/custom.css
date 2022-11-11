@@ -376,10 +376,6 @@ div#category {
 }
 
 /* 音乐播放器 */
-/* .aplayer .aplayer-lrc {
-  display: none !important;
-} */
-
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
   left: -66px !important;
   transition: all 0.3s;
@@ -416,14 +412,14 @@ div#category {
 
 /* 鼠标图标 */
 body {
-  cursor: url('/img/NormalSelect.ani'), auto;
+  cursor: url('/img/1.cur'), auto;
 }
 a,
 [type='button']:not(:disabled),
 [type='reset']:not(:disabled),
 [type='submit']:not(:disabled),
 button:not(:disabled) {
-  cursor: url('/img/x2.cur'), auto !important;
+  cursor: url('/img/2.cur'), auto !important;
 }
 /* md网站下划线 */
 #article-container a:hover {

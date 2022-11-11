@@ -14,6 +14,7 @@ div#page {
   font-family: zcool;
   font-size: 1.2em !important;
 }
+li.toc-item.toc-level-1,
 a#site-name,
 #nav .menus_items {
   font-family: zcool;

@@ -4,41 +4,6 @@
   font-display: swap;
   font-weight: lighter;
 }
-div#post {
-  font-family: zcool;
-  font-size: 0.9em !important;
-}
-span#subtitle {
-  font-family: zcool;
-  font-size: 1em !important;
-}
-a#page-name,
-.search-dialog,
-div#page {
-  font-family: zcool;
-  font-size: 1.2em !important;
-}
-li.toc-item.toc-level-1,
-a#site-name,
-#nav .menus_items {
-  font-family: zcool;
-  font-size: 1.25em !important;
-}
-h1#site-title {
-  font-family: zcool;
-  font-size: 3em !important;
-}
-item-headline,
-.card-widget.card-announcement,
-.card-widget.card-info,
-div#footer-wrap,
-div#aside-content,
-div#archive,
-div#recent-posts,
-div#post-info,
-div#sidebar-menus {
-  font-family: zcool;
-}
 
 /* 颜色 */
 :root {

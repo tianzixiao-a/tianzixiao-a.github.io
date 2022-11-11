@@ -451,7 +451,7 @@ div#category {
 
 /* 鼠标图标 */
 body {
-  cursor: url('/img/x1.cur'), auto;
+  cursor: url('/img/NormalSelect.ani'), auto;
 }
 a,
 [type='button']:not(:disabled),

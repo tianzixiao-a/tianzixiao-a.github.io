@@ -333,7 +333,9 @@ div#post {
 #aside-content .item-headline {
 	display:none
 }
-
+li.toc-item {
+  display: list-item;
+}
 /* 分页页面 */
 div#page {
   background: rgba(255, 255, 255, 0.9);

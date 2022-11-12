@@ -280,10 +280,29 @@ div#post {
 }
 
 /*文章分页卡片美化*/
-#pagination .prev-post a, #pagination .next-post a {
-  border-style: ridge;
-  border-width: 8px;
-  border-color: #d2d2d2;
+#pagination .next-post:hover img,#pagination .prev-post:hover img,.postImgHover:hover img,.relatedPosts>.relatedPosts-list>div:hover img {
+	opacity:.8;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter:alpha(opacity=80);
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	transform:scale(1.1)
+}
+#pagination .next-post img,#pagination .prev-post img,.postImgHover img,.relatedPosts>.relatedPosts-list>div img {
+	position:absolute;
+	width:100%;
+	height:100%;
+	opacity:.4;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter:alpha(opacity=40);
+	-webkit-transition:all .6s,filter 375ms ease-in .2s;
+	-moz-transition:all .6s,filter 375ms ease-in .2s;
+	-o-transition:all .6s,filter 375ms ease-in .2s;
+	-ms-transition:all .6s,filter 375ms ease-in .2s;
+	transition:all .6s,filter 375ms ease-in .2s;
+	object-fit:cover
 }
 
 /*文章页目录美化*/
@@ -822,7 +841,6 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
   -webkit-animation: ccc 3.2s linear infinite ;
   animation: ccc 3.2s linear infinite ;
 }
-/* 页面设置icon转动速度调整 */
 #rightside_config i.fas.fa-cog.fa-spin {
   animation: fa-spin 5s linear infinite ;
 }
@@ -979,12 +997,9 @@ div#menus {
 #site-name:hover i {
   opacity: 1;
 }
-
-/* 圆角隐藏 */
 ul.menus_item_child {
   border-radius: 5px;
 }
-
 /* 一级菜单居中 */
 #nav .menus_items {
   position: absolute;

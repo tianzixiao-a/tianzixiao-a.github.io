@@ -298,7 +298,7 @@ div#post {
 	border-radius:12px;
 	border-left-color:var(--tzx-hovertext);
 	background-color:var(--tzx-card-bg);
-	color:var(--tzx-lighttext);
+	color:var(--tzx-klein-blue);
 	font-weight:700;
 	font-size:20px
 }

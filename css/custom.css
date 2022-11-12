@@ -330,6 +330,9 @@ div#post {
 #aside-content #card-toc .toc-content .toc-link:not(.active) span:hover {
 	color:var(--tzx-lighttext)
 }
+#aside-content .item-headline {
+	display:none
+}
 
 /* 分页页面 */
 div#page {

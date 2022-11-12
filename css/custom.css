@@ -287,18 +287,48 @@ div#post {
 }
 
 /*文章页目录美化*/
-#aside-content .card-widget {
-  border-radius: 20px;
-  }
-#aside-content .item-headline {
-  display: none;
+#aside-content #card-toc .toc-content .toc-link.active {
+	border-radius:var(--tzx-border-radius)
 }
-a.toc-link.active {
-  border-radius: 5px;
+#aside-content #card-toc .toc-content {
+	overflow-y:auto
 }
 #aside-content #card-toc .toc-content .toc-link.active {
-  background: none;
-  color: var(--tzx-klein-blue);
+	line-height:1.2;
+	border-radius:12px;
+	border-left-color:var(--tzx-hovertext);
+	background-color:var(--tzx-card-bg);
+	color:var(--tzx-lighttext);
+	font-weight:700;
+	font-size:20px
+}
+[data-theme=dark].toc .toc-item.active .toc-link .toc-text {
+	color:var(--tzx-white)
+}
+#aside-content #card-toc .toc-content .toc-item.active .toc-link {
+	opacity:1;
+	border-radius:8px
+}
+#aside-content #card-toc .toc-content .toc-link {
+	line-height:1.2;
+	padding:8px;
+	border-left:0 solid transparent;
+	border-radius:12px;
+	color:var(--tzx-secondtext);
+	cursor:default
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span {
+	opacity:.6;
+	cursor:pointer;
+	filter:blur(1px);
+	transition:.3s
+}
+#aside-content #card-toc:hover .toc-content .toc-link:not(.active) span {
+	filter:blur(0);
+	opacity:1
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span:hover {
+	color:var(--tzx-lighttext)
 }
 
 /* 分页页面 */

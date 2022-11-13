@@ -1,6 +1,5 @@
 "use strict";
 function totraveling() {
-  btf.snackbarShow("即将跳转到「开往」项目的成员博客", !1, 5e3),
   setTimeout(function() {
       window.open("https://travellings.cn/")
   },

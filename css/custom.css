@@ -187,19 +187,6 @@ button:not(:disabled) {
 }
 
 /* 侧边栏个人卡片 */
-div#author-info__sayhi {
-	text-align:left;
-	background:var(--tzx-white-op);
-	color:var(--font-color);
-	border:var(--style-border);
-	font-size:12px;
-	margin-right:auto;
-	padding:5px 8px;
-	border-radius:12px;
-	width:fit-content;
-	display:inline;
-	margin-left:-1px
-}
 .card-widget .author-info-top {
 	margin:15px auto 0;
 	display:flex;

@@ -1,10 +1,3 @@
-"use strict";
-function totraveling() {
-  setTimeout(function() {
-      window.open("https://travellings.cn/")
-  },
-  "5000")
-}
 // 返回顶部 显示网页阅读进度
 window.onscroll = percent; // 执行函数
 // 页面百分比

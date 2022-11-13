@@ -232,6 +232,11 @@ button:not(:disabled) {
 	line-height:1.5em;
 	margin:4px 0
 }
+#aside-content .card-info #card-info-btn {
+  background-color: #002fa7;
+  --btn-hover-color: #51a8dd;
+  border-radius: 10px;
+}
 /* 个人卡片渐变色*/
 #aside-content > .card-widget.card-info {
   background: linear-gradient(-45deg, var(--tzx-main), #031764, #150136, #67044d);
@@ -292,10 +297,6 @@ button:not(:disabled) {
 }
 .card-widget.card-recent-post {
   padding: 0.4rem 0.6rem !important;
-}
-#aside-content .card-info #card-info-btn {
-  background-color: #002fa7;
-  --btn-hover-color: #51a8dd;
 }
 
 /* 首页文章卡片 */

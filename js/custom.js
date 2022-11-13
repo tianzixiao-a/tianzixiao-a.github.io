@@ -1,12 +1,11 @@
 "use strict";
-function toRandomPage() {
-    btf.snackbarShow("即将随机穿越项目~", !1, 5e3),
-    setTimeout(function() {
-        window.open("https://travellings.link/")
-    },
-    "5000")
+function totraveling() {
+  btf.snackbarShow("即将跳转到「开往」项目的成员博客", !1, 5e3),
+  setTimeout(function() {
+      window.open("https://travellings.cn/")
+  },
+  "5000")
 }
-
 // 返回顶部 显示网页阅读进度
 window.onscroll = percent; // 执行函数
 // 页面百分比

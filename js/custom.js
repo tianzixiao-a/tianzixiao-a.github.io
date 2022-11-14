@@ -18,8 +18,6 @@ function percent() {
   result <= 99 || (result = 99), (btn.innerHTML = result);
 }
 
-document.getElementById("page-name").innerText = document.title.split(" | 天子笑")[0];
-
 var tzx_musicPlaying = false;
 var tzx_musicStretch = false;
 var tzx_musicFirst = false;
@@ -58,17 +56,14 @@ var tzx = {
       tzx_musicStretch = true;
     }
   },
-
   //音乐上一曲
   musicSkipBack: function () {
     document.querySelector("meting-js").aplayer.skipBack();
   },
-
   //音乐下一曲
   musicSkipForward: function () {
     document.querySelector("meting-js").aplayer.skipForward();
   },
-
   //获取音乐中的名称
   musicGetName: function () {
     var x = $(".aplayer-title");
@@ -79,5 +74,4 @@ var tzx = {
     return arr[0];
   },
 };
-
 addRightMenuClickEvent();

@@ -10,3 +10,5 @@ function musicBindEvent() {
     tzx.musicTelescopic();
   });
 }
+
+document.getElementById("page-name").innerText = document.title.split(" | 天子笑")[0];

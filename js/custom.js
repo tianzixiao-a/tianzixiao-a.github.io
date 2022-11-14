@@ -18,6 +18,8 @@ function percent() {
   result <= 99 || (result = 99), (btn.innerHTML = result);
 }
 
+document.getElementById("page-name").innerText = document.title.split(" | 天子笑")[0];
+
 var tzx_musicPlaying = false;
 var tzx_musicStretch = false;
 var tzx_musicFirst = false;

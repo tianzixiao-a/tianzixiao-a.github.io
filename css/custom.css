@@ -4,7 +4,6 @@
   font-display: swap;
   font-weight: lighter;
 }
-
 /* 颜色 */
 :root {
   --tzx-klein-blue: #002fa7;
@@ -44,7 +43,6 @@
   --tzx-black-acrylic1: #0b0b0e !important;
   --tzx-main-none: #b8b8b800 !important;
 }
-
 [data-theme="light"] {
   --tzx-theme: #425aef;
   --tzx-theme-op: #4259ef23;
@@ -72,7 +70,6 @@
   --tzx-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --tzx-card-border: #c0c6d8;
 }
-
 [data-theme="dark"] {
   --global-bg: #191919;
   --tzx-theme: #0084ff;
@@ -101,7 +98,6 @@
   --tzx-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --tzx-card-border: #42444a;
 }
-
 .iconfont {
   font-family: 'iconfont' !important;
   font-size: 3em;
@@ -110,7 +106,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 /* 时间轴生肖icon */
 svg.icon {
   /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
@@ -121,11 +116,9 @@ svg.icon {
   fill: currentColor;
   overflow: hidden;
 }
-
 .icon-zhongbiao::before {
   color: #f7c768;
 }
-
 /* bilibli番剧插件 */
 #article-container .bangumi-tab.bangumi-active {
   background: var(--tzx-theme);
@@ -146,7 +139,6 @@ a.bangumi-button.bangumi-nextpage:hover {
 .bangumi-button {
   padding: 5px 10px !important;
 }
-
 a.bangumi-tab {
   padding: 5px 10px !important;
 }
@@ -162,26 +154,22 @@ svg.icon.faa-tada {
 .bangumi-info-item em{
   color: #f2b94b;
 }
-
 /* 音乐播放器 */
 .aplayer.aplayer-narrow .aplayer-body,
 .aplayer.aplayer-narrow .aplayer-pic {
   height: 66px;
   width: 66px;
 }
-
 #page:has(.aplayer):has(.aplayer-body):has(.aplayer-list) #post-comment .tk-comments-container > .tk-comment {
   border: none;
   box-shadow: none;
 }
-
 /* 导航栏音乐 */
 @media screen and (max-width: 1300px) {
   #nav-music {
     display: none !important;
   }
 }
-
 #nav-music {
   display: flex;
   align-items: center;
@@ -196,16 +184,13 @@ svg.icon.faa-tada {
   border-radius: 40px;
   overflow: hidden;
 }
-
 #nav-music:active {
   transform: scale(0.97);
 }
-
 #nav-music.playing {
   box-shadow: 0 0px 12px -3px var(--tzx-none);
   animation: playingShadow 5s linear infinite;
 }
-
 @keyframes playingShadow {
   0% {
     box-shadow: 0 0px 12px -3px var(--tzx-none);
@@ -219,7 +204,6 @@ svg.icon.faa-tada {
     box-shadow: 0 0px 12px -3px var(--tzx-none);
   }
 }
-
 #nav-music .aplayer.aplayer-withlrc .aplayer-pic {
   height: 25px;
   width: 25px;
@@ -231,14 +215,12 @@ svg.icon.faa-tada {
   animation: changeright 24s linear infinite;
   animation-play-state: paused;
 }
-
 #nav-music.playing .aplayer.aplayer-withlrc .aplayer-pic {
   box-shadow: 0 0 14px #ffffffa6;
   transform: rotate(0deg) scale(1.1);
   border-color: var(--tzx-white);
   animation-play-state: running;
 }
-
 @keyframes changeright {
   0% {
     transform: rotate(0deg) scale(1.1);
@@ -265,7 +247,6 @@ svg.icon.faa-tada {
     box-shadow: 0 0 2px #ffffff00;
   }
 }
-
 #nav-music .aplayer.aplayer-withlrc .aplayer-info {
   height: 100%;
   color: var(--tzx-fontcolor);
@@ -274,11 +255,9 @@ svg.icon.faa-tada {
   display: flex;
   align-items: center;
 }
-
 #nav-music.playing .aplayer.aplayer-withlrc .aplayer-info {
   color: var(--tzx-white);
 }
-
 #nav-music.playing #nav-music-hoverTips {
   width: 0;
   opacity: 0;
@@ -300,11 +279,9 @@ svg.icon.faa-tada {
   z-index: 2;
   transition: 0.3s;
 }
-
 #nav-music:hover:not(.playing) #nav-music-hoverTips {
   opacity: 1;
 }
-
 #nav-music
   .aplayer
   .aplayer-info
@@ -315,7 +292,6 @@ svg.icon.faa-tada {
   .aplayer-thumb {
   display: none;
 }
-
 #nav-music .aplayer {
   background: var(--card-bg);
   border-radius: 60px;
@@ -326,22 +302,18 @@ svg.icon.faa-tada {
   border: var(--style-border);
   box-shadow: none;
 }
-
 #nav-music.playing .aplayer {
   background: var(--tzx-main-op-deep);
   border: var(--style-border-hover);
   backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: blur(20px);
 }
-
 #nav-music .aplayer .aplayer-notice {
   display: none;
 }
-
 #nav-music .aplayer .aplayer-miniswitcher {
   display: none;
 }
-
 #nav-music .aplayer .aplayer-body {
   position: relative;
   display: flex;
@@ -349,11 +321,9 @@ svg.icon.faa-tada {
   padding: 0 8px;
   padding-right: 12px;
 }
-
 #nav-music .aplayer-list {
   display: none;
 }
-
 #nav-music .aplayer .aplayer-info .aplayer-music {
   margin: 0;
   display: flex;
@@ -362,19 +332,15 @@ svg.icon.faa-tada {
   z-index: 1;
   height: 100%;
 }
-
 #nav-music .aplayer .aplayer-info .aplayer-controller .aplayer-time {
   display: none;
 }
-
 #nav-music .aplayer .aplayer-info .aplayer-music .aplayer-author {
   display: none;
 }
-
 #nav-music .aplayer.aplayer-withlist .aplayer-info {
   border: none;
 }
-
 #nav-music .aplayer .aplayer-pic .aplayer-button {
   bottom: 50%;
   right: 50%;
@@ -385,7 +351,6 @@ svg.icon.faa-tada {
 #nav-music .aplayer .aplayer-pic:has(.aplayer-button.aplayer-play) {
   animation: none;
 }
-
 #nav-music .aplayer .aplayer-info .aplayer-music .aplayer-title {
   cursor: pointer;
   line-height: 1;
@@ -397,7 +362,6 @@ svg.icon.faa-tada {
   transition: 0.3s;
   user-select: none;
 }
-
 #nav-music .aplayer .aplayer-info .aplayer-controller {
   position: absolute;
   width: 100%;
@@ -405,21 +369,17 @@ svg.icon.faa-tada {
   top: 0;
   left: 0;
 }
-
 #nav-music .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
   margin: 0;
   padding: 0;
 }
-
 #nav-music .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
   height: 100%;
   background: none;
 }
-
 #nav-music .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
   display: none;
 }
-
 #nav-music .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
   height: 100%;
   opacity: 0.1;
@@ -427,11 +387,9 @@ svg.icon.faa-tada {
   animation: lightBar 5s ease infinite;
   animation-play-state: paused;
 }
-
 #nav-music.playing .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
   animation-play-state: running;
 }
-
 @keyframes lightBar {
   0% {
     opacity: 0.1;
@@ -445,7 +403,6 @@ svg.icon.faa-tada {
     opacity: 0.1;
   }
 }
-
 /* 歌词 */
 #nav-music .aplayer.aplayer-withlrc .aplayer-lrc {
   width: 0;
@@ -455,38 +412,26 @@ svg.icon.faa-tada {
   margin-top: -2px;
   padding: 5px 0;
 }
-
 #nav-music.stretch .aplayer.aplayer-withlrc .aplayer-lrc {
   width: 200px;
   margin-bottom: 0;
   opacity: 1;
 }
-
 #nav-music .aplayer .aplayer-lrc p.aplayer-lrc-current {
   color: var(--tzx-white);
   border: none;
 }
-
 #nav-music .aplayer .aplayer-lrc:after,
 #nav-music .aplayer .aplayer-lrc:before {
   display: none;
 }
-
 #nav-music .aplayer .aplayer-lrc p {
   color: #ffffffb3;
 }
-
-/* 解决artitalk的图标问题 */
-#uploadSource > svg {
-  width: 1.19em;
-  height: 1.5em;
-}
-
-/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显*/
 #page-header:not(.not-top-img):before {
   background-color: transparent !important;
 }
-
 /* 鼠标指针 */
 body {
   cursor: url('https://npm.elemecdn.com/tzx-assets/img/mouse/1.cur'), auto;
@@ -498,7 +443,6 @@ a,
 button:not(:disabled) {
   cursor: url('https://npm.elemecdn.com/tzx-assets/img/mouse/2.cur'), auto !important;
 }
-
 /* 侧边栏个人卡片 */
 .card-widget .author-info-top {
 	margin:15px auto 0;
@@ -554,27 +498,22 @@ button:not(:disabled) {
   --btn-hover-color: #51a8dd;
   border-radius: 10px;
 }
-
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item {
   background: rgba(255, 255, 255, 0.9);
 }
-
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
   background: rgba(255, 255, 255, 0.9);
 }
-
 /* 文章页面正文背景 */
 div#post {
   background: rgba(255, 255, 255, 0.9);
 }
-
 /*文章相关推荐卡片美化*/
 .relatedPosts > .relatedPosts-list > div {
   border-radius: 20px;
 }
-
 /*文章分页卡片美化*/
 #pagination .next-post:hover img,#pagination .prev-post:hover img,.postImgHover:hover img,.relatedPosts>.relatedPosts-list>div:hover img {
 	opacity:.8;
@@ -600,7 +539,6 @@ div#post {
 	transition:all .6s,filter 375ms ease-in .2s;
 	object-fit:cover
 }
-
 /*文章页目录美化*/
 #aside-content #card-toc .toc-content .toc-link.active {
 	border-radius:var(--tzx-border-radius)
@@ -655,55 +593,43 @@ li.toc-item {
 div#page {
   background: rgba(255, 255, 255, 0.9);
 }
-
 /* 归档页面 */
 div#archive {
   background: rgba(255, 255, 255, 0.9);
 }
-
 /* 标签页面 */
 div#tag {
   background: rgba(255, 255, 255, 0.9);
 }
-
 /* 分类页面 */
 div#category {
   background: rgba(255, 255, 255, 0.9);
 }
-
 /*夜间模式伪类遮罩层透明*/
 [data-theme='dark'] #recent-posts > .recent-post-item {
   background: #121212;
 }
-
 [data-theme='dark'] .card-widget {
   background: #121212 !important;
 }
-
 [data-theme='dark'] div#post {
   background: #121212 !important;
 }
-
 [data-theme='dark'] div#tag {
   background: #121212 !important;
 }
-
 [data-theme='dark'] div#archive {
   background: #121212 !important;
 }
-
 [data-theme='dark'] div#page {
   background: #121212 !important;
 }
-
 [data-theme='dark'] div#category {
   background: #121212 !important;
 }
-
 [data-theme='dark'] div#category {
   background: transparent !important;
 }
-
 #rightside > div > button {
   border-radius: 5px;
 }
@@ -711,32 +637,26 @@ div#category {
 #footer {
   background: transparent !important;
 }
-
 /* 头图透明 */
 #page-header {
   background: transparent !important;
 }
-
 /* 滚动条 */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
-
 ::-webkit-scrollbar-thumb {
   background-color: #002fa7;
   border-radius: 2em;
 }
-
 ::-webkit-scrollbar-corner {
   background-color: transparent;
 }
-
 ::-moz-selection {
   color: #fff;
   background-color: #002FA7;
 }
-
 /* 评论框  */
 .vwrap {
   box-shadow: 2px 2px 5px #bbb;
@@ -745,7 +665,6 @@ div#category {
   padding: 30px;
   margin: 30px 0px 30px 0px;
 }
-
 /* 设置评论框 */
 .vcard {
   box-shadow: 2px 2px 5px #bbb;
@@ -754,16 +673,13 @@ div#category {
   padding: 30px;
   margin: 30px 0px 0px 0px;
 }
-
 /* md网站下划线 */
 #article-container a:hover {
   text-decoration: none !important;
 }
-
 #article-container #hpp_talk p img {
   display: inline;
 }
-
 /* 404页面 */
 #error-wrap {
   position: absolute;
@@ -775,7 +691,6 @@ div#category {
   max-width: 1000px;
   transform: translate(0, -50%);
 }
-
 #error-wrap .error-content {
   display: flex;
   flex-direction: row;
@@ -788,7 +703,6 @@ div#category {
   box-shadow: var(--card-box-shadow);
   transition: all 0.3s;
 }
-
 #error-wrap .error-content .error-img {
   box-flex: 1;
   flex: 1;
@@ -799,7 +713,6 @@ div#category {
   background-position: center;
   background-size: cover;
 }
-
 #error-wrap .error-content .error-info {
   box-flex: 1;
   flex: 1;
@@ -824,7 +737,6 @@ div#category {
   background: var(--btn-bg);
   color: var(--btn-color);
 }
-
 #body-wrap.error .aside-list {
   display: flex;
   flex-direction: row;
@@ -835,7 +747,6 @@ div#category {
   width: 100%;
   overflow: scroll;
 }
-
 #body-wrap.error .aside-list .aside-list-group {
   display: flex;
   flex-direction: row;
@@ -843,17 +754,14 @@ div#category {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 #body-wrap.error .aside-list .aside-list-item {
   padding: 0.5rem;
 }
-
 #body-wrap.error .aside-list .aside-list-item img {
   width: 100%;
   object-fit: cover;
   border-radius: 12px;
 }
-
 #body-wrap.error .aside-list .aside-list-item .thumbnail {
   overflow: hidden;
   width: 230px;
@@ -861,7 +769,6 @@ div#category {
   background: var(--heo-card-bg);
   display: flex;
 }
-
 #body-wrap.error .aside-list .aside-list-item .content .title {
   -webkit-line-clamp: 2;
   overflow: hidden;
@@ -874,16 +781,13 @@ div#category {
   padding-top: 0.5rem;
   color: white;
 }
-
 #body-wrap.error .aside-list .aside-list-item .content time {
   display: none;
 }
-
 /* 代码框主题 */
 #article-container figure.highlight {
   border-radius: 10px;
 }
-
 /* tags样式 */
 #aside-content .card-tag-cloud a {
   color: var(--tzx-fontcolor)!important;
@@ -909,7 +813,6 @@ div#category {
   opacity: .4;
   margin-left: 2px;
 }
-
 /* 归档样式 */
 span.card-archive-list-count {
   width: auto;
@@ -983,7 +886,6 @@ li.card-archive-list-item {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 /*加载渐变条*/
 .pace {
   -webkit-pointer-events: none;
@@ -1004,12 +906,10 @@ li.card-archive-list-item {
   border: 1px #e3e8f7;
   overflow: hidden
 }
-
 .pace-inactive .pace-progress {
   opacity: 0;
   transition: .3s ease-in
 }
-
 .pace .pace-progress {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1033,7 +933,6 @@ li.card-archive-list-item {
   animation: gradient 1.5s ease infinite;
   background-size: 200%
 }
-
 .pace.pace-inactive {
   opacity: 0;
   transition: .3s;
@@ -1050,7 +949,6 @@ li.card-archive-list-item {
   background-position: 0% 50%;
 }
 }
-
 /* 文章页H1-H6图标样式效果 */
 h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
   -webkit-animation: ccc 1.6s linear infinite ;
@@ -1123,13 +1021,11 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 #rightside_config i.fas.fa-cog.fa-spin {
   animation: fa-spin 5s linear infinite ;
 }
-
 /* 导航栏修改 */
 #nav a:hover {
   background: var(--tzx-main);
   transition: 0.3s;
 }
-
 #nav-totop:hover .totopbtn i {
   opacity: 1;
 }
@@ -1151,7 +1047,6 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
   color: var(--card-bg);
   font-size: 13px;
 }
-
 #nav-totop {
   width: 35px;
 }
@@ -1176,7 +1071,6 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
   margin-left: 0.5rem;
   padding: 0;
 }
-
 #nav-totop {
   display: flex;
   align-items: center;
@@ -1197,14 +1091,12 @@ div#menus {
   align-items: center;
   justify-content: center;
 }
-
 #nav .site-page {
   padding-bottom: 0px;
 }
 #nav *::after {
   background-color: transparent !important;
 }
-
 /* 顶栏修改 */
 #nav .menus_items .menus_item .menus_item_child li a {
   padding: 2px 16px;
@@ -1212,7 +1104,6 @@ div#menus {
 #nav .menus_items .menus_item .menus_item_child li:hover a {
   color: white !important;
 }
-
 #nav .menus_items .menus_item .menus_item_child li {
   margin: 6px;
   border-radius: 5px;
@@ -1291,7 +1182,6 @@ ul.menus_item_child {
   align-items: center;
   height: 60px;
 }
-
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: block;
   transform: translateX(-50%);
@@ -1305,11 +1195,9 @@ ul.menus_item_child {
   padding: 0 5px 27px 5px !important;
   margin-bottom: -14.5px !important;
 }
-
 #nav .menus_items .menus_item .menus_item_child {
   top: 44px;
 }
-
 @media screen and (min-width: 768px) {
   .page .menus_item:hover > a.site-page {
     color: var(--tzx-white) !important;
@@ -1318,7 +1206,6 @@ ul.menus_item_child {
     box-shadow: var(--tzx-shadow-main);
   }
 }
-
 .nav-fixed #nav {
   transform: translateY(58px) !important;
 }
@@ -1326,7 +1213,6 @@ ul.menus_item_child {
   padding: 0 calc((100% - 1420px) / 2);
   backdrop-filter: saturate(180%) blur(20px);
 }
-
 #nav a {
   border-radius: 8px;
   color: var(--font-color);
@@ -1337,7 +1223,6 @@ ul.menus_item_child {
   transition: 0.3s;
   box-shadow: var(--tzx-shadow-main);
 }
-
 #menus > div.menus_items > div > a {
   letter-spacing: 0.3rem;
   font-weight: 700;
@@ -1352,11 +1237,9 @@ ul.menus_item_child {
   margin: auto;
   align-items: center;
 }
-
 #nav div#toggle-menu {
   padding: 2px 0 4px 6px;
 }
-
 #nav-totop .totopbtn i {
   position: absolute;
   display: flex;
@@ -1399,7 +1282,6 @@ ul.menus_item_child {
   position: relative;
   padding: 10px 30px;
 }
-
 center#name-container {
   position: absolute;
   width: 100%;
@@ -1427,7 +1309,6 @@ center#name-container {
 #name-container {
   bottom: 60px;
 }
-
 .mask-name-container {
   max-width: 1200px;
   width: 50%;
@@ -1437,13 +1318,11 @@ center#name-container {
   left: 50%;
   transform: translateX(-50%);
 }
-
 @media screen and (max-width: 992px) {
   .mask-name-container {
     width: 65%;
   }
 }
-
 @media screen and (max-width: 768px) {
   .mask-name-container {
     display: none;
@@ -1459,13 +1338,11 @@ center#name-container {
 #nav #search-button {
   font-size: 1.3em;
 }
-
 @media screen and (min-width: 900px) {
   #nav .back-home-button:hover {
     box-shadow: var(--tzx-shadow-main);
   }
 }
-
 .back-home-button:hover {
   background: var(--tzx-main);
   color: var(--tzx-white) !important;
@@ -1481,7 +1358,6 @@ center#name-container {
   transition: 0.3s;
   border-radius: 8px;
 }
-
 .back-home-button:hover .back-menu-list-groups {
   display: flex;
   opacity: 1;
@@ -1505,7 +1381,6 @@ center#name-container {
   opacity: 0;
   pointer-events: none;
 }
-
 .back-home-button .back-menu-list-group {
   display: flex;
   flex-direction: column;
@@ -1526,7 +1401,6 @@ center#name-container {
   height: 25px;
   content: "";
 }
-
 .back-home-button .back-menu-list-group:hover .back-menu-list-title {
   color: var(--tzx-main);
 }
@@ -1565,7 +1439,6 @@ center#name-container {
   cursor: pointer;
   position: relative;
 }
-
 @media screen and (min-width: 1300px) {
   #nav a:hover {
     transform: scale(1.03);
@@ -1577,7 +1450,6 @@ center#name-container {
 .back-menu-item-icon.loading img {
   width: 25px;
 }
-
 #page-header #nav #menus .nav-button.long a.totopbtn,
 #page-header #nav #menus .nav-button.long,
 #page-header #nav #menus .nav-button.long a.totopbtn span {
@@ -1591,7 +1463,6 @@ center#name-container {
   transition: 0.3s;
   white-space: nowrap;
 }
-
 #page-header #nav #menus .nav-button.long a.totopbtn:hover {
   border-radius: 35px;
   height: 30px;
@@ -1609,7 +1480,6 @@ center#name-container {
 #search-button a.site-page.social-icon.search span {
   display: none;
 }
-
 /* rightMenu */
 [data-theme='light'] #rightMenu{
 	display: none;
@@ -1693,10 +1563,4 @@ center#name-container {
 .rightMenu-item:hover{
     color:white!important;
     background-color:var(--tzx-blue)!important;
-}
-
-/* LOADING加载动画 */
-.loading-img {
-  background: url(https://npm.elemecdn.com/tzx-assets/img/avatar.webp) no-repeat center center;
-  background-size: cover;
 }

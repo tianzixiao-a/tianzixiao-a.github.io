@@ -1690,23 +1690,10 @@ center#name-container {
 }
 .author-content.author-content-item.essayPage {
 	height:19rem;
-    border-radius: 25px;
-	background:url(https://npm.elemecdn.com/tzx-assets/img/posts/1.webp) left 28%/cover no-repeat;
+	background:url(https://image.anzhiy.cn/adminuploads/1/2022/08/21/630249e2df20f.jpg) left 28%/cover no-repeat;
 	color:var(--tzx-white);
 	overflow:hidden;
 	margin-top:0
-}
-.author-content-item-tips {
-    margin-left: 20px;
-    margin-top: 10px
-}
-span.author-content-item-title {
-    margin-left: 20px;
-    font-size: 2em
-}
-.banner-button-group {
-    margin-top: 120px;
-    margin-left: 855px
 }
 #page:has(#essay_page) .author-content-item .card-content .banner-button-group .banner-button:hover {
 	color:var(--tzx-white);
@@ -1728,4 +1715,68 @@ span.author-content-item-title {
 }
 #bber .aplayer .aplayer-lrc p {
 	color:var(--tzx-fontcolor)
+}
+#bbTimeList {
+	background:var(--tzx-white);
+	color:var(--tzx-fontcolor);
+	padding:.5rem 1rem;
+	border-radius:30px;
+	box-shadow:var(--tzx-shadow-lightblack);
+	display:flex;
+	transition:all .3s ease 0s;
+	margin:1rem auto 0;
+	border:var(--style-border);
+	align-items:center;
+	height:50px;
+	width:100%
+}
+[data-theme=dark] #bbTimeList {
+	background:#000!important
+}
+#bbtalk {
+	width:100%;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+#bber-talk {
+	width:100%;
+	height:25px;
+	line-height:25px;
+	display:flex;
+	flex-direction:column
+}
+.bber-logo {
+	font-size:1.5rem;
+	line-height:22px;
+	margin-right:1rem;
+	transition:all .3s ease 0s;
+	cursor:url(https://npm.elemecdn.com/tzx-assets/img/mouse/2.cur),auto!important
+}
+.bber-gotobb {
+	line-height:25px;
+	margin-left:1rem;
+	transition:all .3s ease 0s;
+	cursor:url(https://npm.elemecdn.com/tzx-assets/img/mouse/2.cur),auto!important
+}
+#bber-talk .li-style {
+	width:100%;
+	max-width:100%;
+	height:25px;
+	text-align:center;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	transition:.3s;
+	font-weight:700;
+	margin:auto;
+	cursor:url(https://npm.elemecdn.com/tzx-assets/img/mouse/2.cur),auto!important;
+	white-space:nowrap
+}
+#bbTimeList:hover {
+	border:var(--style-border-hover);
+	box-shadow:var(--tzx-shadow-main)
+}
+.bbTimeList .bber-logo {
+	-webkit-animation:rotate 1.6s linear infinite;
+	animation:rotate 1.6s linear infinite
 }

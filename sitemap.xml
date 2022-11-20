@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://tzxblog.eu.org/about/index.html</loc>
+    <loc>https://tianzixiao-a.github.io/about/index.html</loc>
     
     <lastmod>2022-11-20</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/essay/index.html</loc>
+    <loc>https://tianzixiao-a.github.io/essay/index.html</loc>
     
     <lastmod>2022-11-20</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/posts/5f67.html</loc>
+    <loc>https://tianzixiao-a.github.io/posts/5f67.html</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/posts/e59e.html</loc>
+    <loc>https://tianzixiao-a.github.io/posts/e59e.html</loc>
     
     <lastmod>2022-11-11</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/categories/index.html</loc>
+    <loc>https://tianzixiao-a.github.io/categories/index.html</loc>
     
     <lastmod>2022-10-30</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/comments/index.html</loc>
+    <loc>https://tianzixiao-a.github.io/comments/index.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/gallery/index.html</loc>
+    <loc>https://tianzixiao-a.github.io/gallery/index.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/link/index.html</loc>
+    <loc>https://tianzixiao-a.github.io/link/index.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/tags/index.html</loc>
+    <loc>https://tianzixiao-a.github.io/tags/index.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/archives/index.html</loc>
+    <loc>https://tianzixiao-a.github.io/archives/index.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/DEADME.html</loc>
+    <loc>https://tianzixiao-a.github.io/DEADME.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/bangumis/index.html</loc>
+    <loc>https://tianzixiao-a.github.io/bangumis/index.html</loc>
     
     <lastmod>2022-10-22</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/music/index.html</loc>
+    <loc>https://tianzixiao-a.github.io/music/index.html</loc>
     
     <lastmod>2022-10-22</lastmod>
     
@@ -120,7 +120,7 @@
   
 
   <url>
-    <loc>https://tzxblog.eu.org/</loc>
+    <loc>https://tianzixiao-a.github.io/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -128,14 +128,14 @@
 
   
   <url>
-    <loc>https://tzxblog.eu.org/tags/Butterfly/</loc>
+    <loc>https://tianzixiao-a.github.io/tags/Butterfly/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tzxblog.eu.org/tags/Hexo/</loc>
+    <loc>https://tianzixiao-a.github.io/tags/Hexo/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -144,7 +144,7 @@
 
   
   <url>
-    <loc>https://tzxblog.eu.org/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://tianzixiao-a.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

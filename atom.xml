@@ -3,11 +3,11 @@
   <title>天子笑</title>
   
   <subtitle>忘羡一曲远 曲终人不散</subtitle>
-  <link href="https://tzxblog.eu.org/atom.xml" rel="self"/>
+  <link href="https://tianzixiao-a.github.io/atom.xml" rel="self"/>
   
-  <link href="https://tzxblog.eu.org/"/>
+  <link href="https://tianzixiao-a.github.io/"/>
   <updated>2022-11-12T01:56:43.368Z</updated>
-  <id>https://tzxblog.eu.org/</id>
+  <id>https://tianzixiao-a.github.io/</id>
   
   <author>
     <name>天子笑</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Butterflyの美化魔改日记</title>
-    <link href="https://tzxblog.eu.org/posts/5f67.html"/>
-    <id>https://tzxblog.eu.org/posts/5f67.html</id>
+    <link href="https://tianzixiao-a.github.io/posts/5f67.html"/>
+    <id>https://tianzixiao-a.github.io/posts/5f67.html</id>
     <published>2022-10-25T03:25:44.000Z</published>
     <updated>2022-11-12T01:56:43.368Z</updated>
     
@@ -30,19 +30,19 @@
     
     
     
-    <category term="前端" scheme="https://tzxblog.eu.org/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://tianzixiao-a.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-    <category term="Butterfly" scheme="https://tzxblog.eu.org/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://tianzixiao-a.github.io/tags/Butterfly/"/>
     
-    <category term="Hexo" scheme="https://tzxblog.eu.org/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://tianzixiao-a.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hexo+GitHub搭建自己的博客</title>
-    <link href="https://tzxblog.eu.org/posts/e59e.html"/>
-    <id>https://tzxblog.eu.org/posts/e59e.html</id>
+    <link href="https://tianzixiao-a.github.io/posts/e59e.html"/>
+    <id>https://tianzixiao-a.github.io/posts/e59e.html</id>
     <published>2022-10-23T03:26:25.000Z</published>
     <updated>2022-11-11T08:18:56.488Z</updated>
     
@@ -51,10 +51,10 @@
     
     
     
-    <category term="前端" scheme="https://tzxblog.eu.org/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://tianzixiao-a.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-    <category term="Hexo" scheme="https://tzxblog.eu.org/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://tianzixiao-a.github.io/tags/Hexo/"/>
     
   </entry>
   

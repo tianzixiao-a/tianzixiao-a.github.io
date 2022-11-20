@@ -1478,41 +1478,41 @@ center#name-container {
 	box-shadow: none !important;
 	padding: 0 !important;
 	background: transparent !important;
-  }
-  #page:has(#essay_page) .page-title {
+}
+#page:has(#essay_page) .page-title {
 	display: none;
-  }
-  #web_bg ~ .page:has(#essay_page) {
+}
+#web_bg ~ .page:has(#essay_page) {
 	background: var(--tzx-background);
-  }
-  #bber .bber-container-img {
+}
+#bber .bber-container-img {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	width: 100%;
 	flex-wrap: wrap;
 	margin-bottom: 0.3rem;
-  }
-  #bber .bber-container-img .bber-content-noimg {
+}
+#bber .bber-container-img .bber-content-noimg {
 	width: calc(100% / 4 - 5px);
-  }
+}
   
-  #bber .bber-content-img img {
+#bber .bber-content-img img {
 	object-fit: cover;
 	max-height: 100%;
 	border-radius: 12px;
-  }
+}
   
-  #bber .bber-content-img {
+#bber .bber-content-img {
 	height: 100px;
 	border-radius: 12px;
 	overflow: hidden;
 	display: flex;
 	position: relative;
 	width: calc(100% / 4 - 5px);
-  }
+}
   
-  #bber .bber-content .datacont {
+#bber .bber-content .datacont {
 	order: 0;
 	font-size: 0.8rem;
 	font-weight: 700;
@@ -1524,18 +1524,18 @@ center#name-container {
 	display: flex;
 	flex-direction: column;
 	text-align: justify;
-  }
-  #bber p {
+}
+#bber p {
 	margin: 0px;
-  }
-  #bber div.bber-content {
+}
+#bber div.bber-content {
 	display: flex;
 	flex-flow: wrap;
 	border-radius: 12px;
 	width: 100%;
 	height: 100%;
-  }
-  #bber .timeline ul li.bber-item {
+}
+#bber .timeline ul li.bber-item {
 	position: relative;
 	width: 32%;
 	border: var(--style-border-always);
@@ -1549,49 +1549,49 @@ center#name-container {
 	background: var(--tzx-card-bg);
 	box-shadow: var(--tzx-shadow-border);
 	margin-right: 2%;
-  }
-  #bber .timeline #waterfall.show {
+}
+#bber .timeline #waterfall.show {
 	opacity: 1;
-  }
-  #bber .timeline #waterfall {
+}
+#bber .timeline #waterfall {
 	opacity: 0;
 	transition: all 0.3s ease 0s;
-  }
-  #bber ul.list {
+}
+#bber ul.list {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-  }
-  #bber {
+}
+#bber {
 	margin-top: 1rem;
 	width: 100%;
-  }
-  #bber > section > ul > li.bber-item {
+}
+#bber > section > ul > li.bber-item {
 	margin-bottom: 1rem;
-  }
+}
   
-  #bber-tips {
+#bber-tips {
 	font-size: 14px;
 	display: flex;
 	justify-content: center;
 	margin-top: 1rem;
-  }
+}
   
-  #bber .timeline ul li.bber-item hr {
+#bber .timeline ul li.bber-item hr {
 	display: flex;
 	position: relative;
 	margin: 8px 0px;
 	border: 1px dashed var(--tzx-theme-op);
 	width: 100%;
-  }
+}
   
-  #bber .bber-info {
+#bber .bber-info {
 	display: flex;
 	align-items: center;
-  }
+}
   
-  #bber > section > ul > li > div .bber-info-time,
-  #bber > section > ul > li > div .bber-info-from {
+#bber > section > ul > li > div .bber-info-time,
+#bber > section > ul > li > div .bber-info-from {
 	color: var(--tzx-fontcolor);
 	font-size: 0.7rem;
 	background-color: var(--tzx-gray-op);
@@ -1600,32 +1600,32 @@ center#name-container {
 	cursor: default;
 	display: flex;
 	align-items: center;
-  }
+}
   
-  #bber .bber-info .far.fa-clock {
+#bber .bber-info .far.fa-clock {
 	margin-right: 4px;
-  }
-  #bber > section > ul > li > div .bber-info-from span,
-  #bber > section > ul > li > div .bber-info-from {
+}
+#bber > section > ul > li > div .bber-info-from span,
+#bber > section > ul > li > div .bber-info-from {
 	margin-left: 4px;
-  }
+}
   
-  #bber .bber-bottom {
+#bber .bber-bottom {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	margin-top: 10px;
-  }
+}
   
-  #bber .bber-bottom .bber-reply {
+#bber .bber-bottom .bber-reply {
 	cursor: url(/img/x2.cur), auto !important;
-  }
+}
   
-  #bber .timeline ul li.bber-item:hover {
+#bber .timeline ul li.bber-item:hover {
 	border: var(--style-border-hover);
-  }
+}
   
-  #bber .bber-content-link {
+#bber .bber-content-link {
 	display: flex;
 	margin-left: 0.5rem;
 	font-size: 0.7rem;
@@ -1634,15 +1634,15 @@ center#name-container {
 	color: rgb(245, 108, 108);
 	padding: 0px 8px;
 	border-radius: 20px;
-  }
-  #bber .bber-content-link i {
+}
+#bber .bber-content-link i {
 	margin-right: 3px;
-  }
-  #bber .bber-content-link:hover {
+}
+#bber .bber-content-link:hover {
 	background-color: var(--tzx-main);
 	color: var(--tzx-white);
-  }
-  #bber .bber-music {
+}
+#bber .bber-music {
 	width: 100%;
 	height: 90px;
 	margin: 0.5rem 0;
@@ -1650,94 +1650,100 @@ center#name-container {
 	overflow: hidden;
 	border: var(--style-border-always);
 	background: var(--tzx-secondbg);
-  }
-  #bber .aplayer {
+}
+#bber .aplayer {
 	margin: 0;
-  }
+}
   
-  #bber .aplayer.aplayer-withlrc .aplayer-pic {
+#bber .aplayer.aplayer-withlrc .aplayer-pic {
 	height: 82px;
 	width: 82px;
 	margin: 4px;
 	border-radius: 4px;
-  }
-  .bber-music .aplayer.aplayer-withlrc .aplayer-info {
+}
+.bber-music .aplayer.aplayer-withlrc .aplayer-info {
 	padding: 5px 7px 0;
-  }
-  #bber .aplayer .aplayer-info .aplayer-music {
+}
+#bber .aplayer .aplayer-info .aplayer-music {
 	height: 23px;
-  }
-  #bber .aplayer .aplayer-info .aplayer-music .aplayer-title {
+}
+#bber .aplayer .aplayer-info .aplayer-music .aplayer-title {
 	font-size: 0.8rem;
 	font-weight: 700;
 	margin: 0;
 	color: var(--tzx-fontcolor);
-  }
+}
   
-  #bber .aplayer .aplayer-info .aplayer-controller {
+#bber .aplayer .aplayer-info .aplayer-controller {
 	align-items: center;
-  }
-  #bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
 	padding: 0;
-  }
-  #bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
 	position: initial;
-  }
-  #bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
 	background: var(--tzx-gray);
 	height: 8px;
 	border-radius: 12px;
 	transition: 0.3s;
 	overflow: hidden;
-  }
-  #bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
 	height: 100%;
 	border-radius: 12px;
-  }
-  #bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
 	height: 100%;
 	border-radius: 12px;
-  }
-  #bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
 	display: none;
-  }
-  #bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
 	position: initial;
-  }
+}
   
   /* 顶部样式 */
-  .author-content.author-content-item.essayPage {
+.author-content.author-content-item.essayPage {
 	height: 19rem;
 	background: url(https://npm.elemecdn.com/tzx-assets/img/posts/1.webp) left 28% / cover no-repeat;
 	color: var(--tzx-white);
 	overflow: hidden;
 	margin-top: 0px;
 	border-radius: 20px;
-  }
-  #page:has(#essay_page) .author-content-item .card-content .banner-button-group .banner-button:hover {
+}
+#page:has(#essay_page) .author-content-item .card-content .banner-button-group .banner-button:hover {
 	color: var(--tzx-white);
 	border-radius: 20px !important;
-  }
-  
+}
+.author-content-item-tips {
+    opacity: .8;
+    font-size: .6rem;
+    margin-bottom: .5rem;
+    margin-left: 30px;
+    margin-top: 10px;
+}
   /* 响应式 */
-  @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
 	#bber .timeline ul li.bber-item {
 	  width: 49%;
 	  margin-right: 1%;
 	}
-  }
-  @media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
 	#bber .timeline ul li.bber-item {
 	  width: 100%;
 	  margin-right: 0px;
 	}
-  }
-  [data-theme="dark"] #bber .bber-music .aplayer,
-  [data-theme="dark"] #bber .aplayer .aplayer-lrc:before,
-  [data-theme="dark"] #bber .aplayer .aplayer-lrc:after {
+}
+[data-theme="dark"] #bber .bber-music .aplayer,
+[data-theme="dark"] #bber .aplayer .aplayer-lrc:before,
+[data-theme="dark"] #bber .aplayer .aplayer-lrc:after {
 	background: var(--tzx-card-bg);
 	color: var(--tzx-fontcolor);
-  }
-  #bber .aplayer .aplayer-lrc p {
+}
+#bber .aplayer .aplayer-lrc p {
 	color: var(--tzx-fontcolor);
-  }
+}

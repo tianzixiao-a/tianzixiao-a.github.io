@@ -1690,6 +1690,7 @@ center#name-container {
 }
 .author-content.author-content-item.essayPage {
 	height:19rem;
+    border-radius: 25px;
 	background:url(https://npm.elemecdn.com/tzx-assets/img/posts/1.webp) left 28%/cover no-repeat;
 	color:var(--tzx-white);
 	overflow:hidden;

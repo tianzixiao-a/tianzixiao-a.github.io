@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tzxblog.eu.org/essay/index.html</loc>
+    
+    <lastmod>2022-11-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tzxblog.eu.org/about/index.html</loc>
     
-    <lastmod>2022-11-18</lastmod>
+    <lastmod>2022-11-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -112,7 +121,7 @@
 
   <url>
     <loc>https://tzxblog.eu.org/</loc>
-    <lastmod>2022-11-19</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,14 +129,14 @@
   
   <url>
     <loc>https://tzxblog.eu.org/tags/Butterfly/</loc>
-    <lastmod>2022-11-19</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tzxblog.eu.org/tags/Hexo/</loc>
-    <lastmod>2022-11-19</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -136,7 +145,7 @@
   
   <url>
     <loc>https://tzxblog.eu.org/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2022-11-19</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

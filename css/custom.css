@@ -402,10 +402,16 @@ svg.icon.faa-tada {
 	background-color:transparent!important
 }
 body {
-	cursor:url(https://npm.elemecdn.com/tzx-assets/img/mouse/1.cur),auto
+	cursor:url(https://npm.elemecdn.com/tzx-assets/img/mouse/1.cur),auto !important;
 }
 [type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),a,button:not(:disabled) {
-	cursor:url(https://npm.elemecdn.com/tzx-assets/img/mouse/2.cur),auto!important
+	cursor:url(https://npm.elemecdn.com/tzx-assets/img/mouse/2.cur),auto!important;
+}
+input.local-search-box--input {
+    cursor: url(https://npm.elemecdn.com/tzx-assets/img/mouse/3.cur),auto !important;
+}
+[type=text]:not(disabled) {
+    cursor: url(https://npm.elemecdn.com/tzx-assets/img/mouse/1.cur),auto !important;
 }
 .card-widget .author-info-top {
 	margin:15px auto 0;

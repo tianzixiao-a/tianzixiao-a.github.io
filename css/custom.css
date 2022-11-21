@@ -1731,6 +1731,34 @@ center#name-container {
     margin-left: 30px;
     margin-top: 10px;
 }
+.author-content-item .card-content .author-content-item-title {
+  margin-bottom: .5rem;
+}
+.author-content-item .author-content-item-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+}
+.author-content-item .content-bottom {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.author-content-item .card-content .banner-button-group .banner-button {
+  height: 40px;
+  width: 124px;
+  border-radius: 20px;
+  justify-content: center;
+  background: var(--tzx-card-bg);
+  color: var(--font-color);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  transition: .3s;
+  cursor: pointer;
+  border-bottom: 0!important;
+}
   /* 响应式 */
 @media screen and (max-width: 1300px) {
 	#bber .timeline ul li.bber-item {

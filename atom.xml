@@ -6,7 +6,7 @@
   <link href="https://tzxblog.eu.org/atom.xml" rel="self"/>
   
   <link href="https://tzxblog.eu.org/"/>
-  <updated>2022-11-12T01:56:43.368Z</updated>
+  <updated>2022-11-25T11:33:36.754Z</updated>
   <id>https://tzxblog.eu.org/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://tzxblog.eu.org/posts/5f67.html"/>
     <id>https://tzxblog.eu.org/posts/5f67.html</id>
     <published>2022-10-25T03:25:44.000Z</published>
-    <updated>2022-11-12T01:56:43.368Z</updated>
+    <updated>2022-11-25T11:33:36.754Z</updated>
     
     <content type="html"><![CDATA[<h2 id="安装Hexo框架"><a href="#安装Hexo框架" class="headerlink" title="安装Hexo框架"></a>安装Hexo框架</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure><h2 id="安装Butterfly主题"><a href="#安装Butterfly主题" class="headerlink" title="安装Butterfly主题"></a>安装Butterfly主题</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure>]]></content>
     

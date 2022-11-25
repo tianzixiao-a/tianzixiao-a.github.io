@@ -1019,7 +1019,7 @@ div#menus {
 #nav .site-page {
 	padding-bottom:0
 }
-#nav::after {
+#nav *::after {
 	background-color:transparent!important
 }
 #nav .menus_items .menus_item .menus_item_child li a {
@@ -1475,4 +1475,14 @@ center#name-container {
 .rightMenu-item:hover {
 	color:#fff!important;
 	background-color:var(--tzx-blue)!important
+}
+li.item {
+    display: flex;
+    background: var(--tzx-klein-blue);
+    box-shadow: 5px 5px 5px var(--tzx-klein-blue);
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-top: 12px;
+    align-items: flex-end;
+    justify-content: space-between;
 }

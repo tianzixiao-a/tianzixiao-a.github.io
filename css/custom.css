@@ -1532,7 +1532,6 @@ li.item {
 		transform: scale(0.1);
 	}
 
-	,
 	100% {
 		transform: scale(1.0);
 	}

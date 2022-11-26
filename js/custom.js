@@ -81,3 +81,4 @@ var tzx = {
 };
 
 addRightMenuClickEvent();
+

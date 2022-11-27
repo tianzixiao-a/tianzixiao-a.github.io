@@ -410,6 +410,9 @@ body {
 [type=text]:not(disabled) {
   cursor: url(https://npm.elemecdn.com/tzx-assets/img/mouse/3.cur),auto !important;
 }
+i.fas.fa-chevron-down {
+    display: none;
+}
 .card-widget .author-info-top {
 	margin:15px auto 0;
 	display:flex;
@@ -556,6 +559,12 @@ div#tag {
 }
 div#category {
 	background:rgba(255,255,255,.9)
+}
+a.article-sort-item-img {
+    border-radius: 15px;
+}
+span.page-number.current {
+    border-radius: 10px;
 }
 [data-theme=dark] #recent-posts>.recent-post-item {
 	background:#121212

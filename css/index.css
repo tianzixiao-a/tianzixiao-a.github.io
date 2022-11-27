@@ -2354,7 +2354,7 @@ figure.highlight pre .javascript .function {
 .flexcard-flink-list > a {
   width: calc(100% / 5 - 0.5rem);
   height: 150px;
-  position: static;
+  position: relative;
   display: block;
   margin: 0.5rem 0.25rem;
   float: left;

@@ -2391,7 +2391,7 @@ figure.highlight pre .javascript .function {
   left: 0;
   right: 0;
   top: 10%;
-  border-radius: 10px;
+  border-radius: 0px;
   text-align: center;
   z-index: 100;
   content: attr(data-title);
